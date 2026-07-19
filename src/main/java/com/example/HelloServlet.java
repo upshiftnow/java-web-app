@@ -11,6 +11,6 @@ public class HelloServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
         resp.setContentType("text/html");
-        resp.getWriter().println("<h1>Hello from Elastic Beanstalk!</h1>");
+        resp.getWriter().println("<h1>Hello from Elastic Beanstalk! How are you?</h1>");
     }
 }
